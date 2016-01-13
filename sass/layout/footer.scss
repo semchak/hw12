@@ -1,0 +1,33 @@
+@import "../utils/variables";
+
+footer{
+  background: $blue;
+  padding: 0 0 10em;
+  ul{
+    margin: 5em auto 10em;
+    li{
+      list-style-type: none;
+      line-height: 3em;
+    }
+    a{
+      font-size: 1.8em;
+      font-weight: 400;
+      color: white;
+    }
+    a:hover{
+      text-decoration: none;
+      color: $red;
+    }
+  }
+  span{
+    font-size: 1.8em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    a{
+      font-weight: 700;
+      color: white;
+    }
+  }
+}

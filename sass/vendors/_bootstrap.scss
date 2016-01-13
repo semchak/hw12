@@ -1,0 +1,27 @@
+@import '../utils/variables';
+
+.collapse {
+  background: white;
+  border-radius: 0;
+  li{
+    margin: 1em;
+    border: 1px solid white;
+    border-radius: 2.5em;
+    font: 400 2em Roboto;
+    transition: 0.2s;
+    }
+  li:hover{
+    border: 1px solid $main-color;
+  }
+}
+.navbar{
+  border: none;
+  box-shadow: none;
+  margin: 0 auto;
+}
+.navbar-default .navbar-nav>li>a {
+  color: $dark-blue;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: $main-color;
+}

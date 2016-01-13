@@ -1,0 +1,153 @@
+@import "../utils/variables";
+
+.container{
+  max-width: 1200px;
+}
+.container::before .container::after{
+  clear: both;
+}
+.position-left{
+  float: left;
+}
+
+.position-right{
+  float: right;
+}
+a{
+  color: $main-color;
+}
+a:hover{
+  text-decoration: none;
+  color: $main-color;
+}
+.wrapper{
+  color: $main-color;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  color: $blue;
+  font-size: 7.2em;
+  font-weight: 700;
+  margin: 2em auto 0;
+}
+
+h3{
+  color: $dark-blue;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+span{
+  color: $dark-blue;
+  font-size: 3.6em;
+  font-weight: 300;
+}
+
+.section-top{
+  background: #f2f3f5 url("../img/bg-header.jpg") no-repeat;
+  background-size: cover;
+}
+
+.macbook{
+  background: url("../img/bg-macbook.png") center no-repeat;
+}
+
+.video{
+  background: url("../img/macbook.png") no-repeat;
+  background-size: cover;
+  padding: 3.5em 2.5em 20em;
+  height: auto;
+  width: auto;
+}
+
+.creativity {
+  background: url("../img/creativity.jpg") no-repeat;
+  background-size: cover;
+}
+.services{
+  padding-bottom: 10em;
+  img{
+    position: inherit;
+  }
+  h3{
+    padding: 1em 0 0.5em;
+  }
+  p{
+    font-weight: 300;
+    font-size: 1.8em;
+  }
+}
+
+span{
+  display: block;
+}
+
+.how-we-work{
+  background: $blue;
+  h2{
+    color:white;
+  }
+  span{
+    color: #5483bb;
+    padding-bottom: 2em;
+  }
+  p{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5em;
+    padding-bottom: 1.5em;
+  }
+}
+
+.slides {
+  img {
+    max-width: 135px;
+    margin: 10em auto 3em;
+    text-align: center;
+  }
+}
+.flex-direction-nav a{
+  weight: 80px;
+  height: 60px;
+  border: 2px solid #e3e7eb;
+  border-radius: 40px;
+}
+
+blockquote{
+  padding: 0.5em 11em;
+  border: none;
+  font-size: 2.4em;
+  font-weight: 300;
+  font-style: italic;
+}
+cite{
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  a{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.team{
+  background: #edeff1;
+  span{
+    margin: 0 auto 3em;
+  }
+  h3{
+    padding: 0.5em 0;
+  }
+  p{
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+}

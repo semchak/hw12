@@ -1,0 +1,58 @@
+@import "../utils/variables";
+
+button{
+  display: block;
+  margin: 7em auto;
+  text-align: center;
+  background: $red;
+  padding: 20px 70px;
+  border: none;
+  border-radius: 3em;
+  font-weight: 700;
+  font-size: 1.8em;
+  transition: 0.2s;
+  a{
+    color: white;
+  }
+}
+button:hover{
+  background: $blue;
+  a{
+    text-decoration: none;
+    color: $red;
+  }
+}
+
+.creativity {
+  button{
+    background: $blue;
+    margin: 16em auto 8em;
+  }
+  button:hover{
+    background: $red;
+    a{
+      color: white;
+    }
+  }
+}
+.how-we-work{
+  button{
+    background: white;
+    padding: 8em auto;
+    margin: 3em auto 7em;
+    a{
+      color: $blue;
+    }
+  }
+  button:hover{
+    background: $red;
+    a{
+      color: white;
+    }
+  }
+}
+.team{
+  button{
+    margin: 3em auto 8em;
+  }
+}

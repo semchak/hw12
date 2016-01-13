@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic);
+.collapse {
+  background: white;
+  border-radius: 0; }
+  .collapse li {
+    margin: 1em;
+    border: 1px solid white;
+    border-radius: 2.5em;
+    font: 400 2em Roboto;
+    transition: 0.2s; }
+  .collapse li:hover {
+    border: 1px solid #7c8ca0; }
+
+.navbar {
+  border: none;
+  box-shadow: none;
+  margin: 0 auto; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #5d6981; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #7c8ca0; }
+
+.h-page {
+  border-bottom: 2px solid #f4f5f7; }
+  .h-page .network {
+    margin: 2em 1.5em 2em 0; }
+    .h-page .network h1 {
+      margin-top: 1.4em; }
+    .h-page .network a {
+      color: #5d6981; }
+
+footer {
+  background: #0149a1;
+  padding: 0 0 10em; }
+  footer ul {
+    margin: 5em auto 10em; }
+    footer ul li {
+      list-style-type: none;
+      line-height: 3em; }
+    footer ul a {
+      font-size: 1.8em;
+      font-weight: 400;
+      color: white; }
+    footer ul a:hover {
+      text-decoration: none;
+      color: #ff2d55; }
+  footer span {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: white;
+    text-align: center; }
+    footer span a {
+      font-weight: 700;
+      color: white; }
+
+.container {
+  max-width: 1200px; }
+
+.container::before .container::after {
+  clear: both; }
+
+.position-left {
+  float: left; }
+
+.position-right {
+  float: right; }
+
+a {
+  color: #7c8ca0; }
+
+a:hover {
+  text-decoration: none;
+  color: #7c8ca0; }
+
+.wrapper {
+  color: #7c8ca0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  color: #0149a1;
+  font-size: 7.2em;
+  font-weight: 700;
+  margin: 2em auto 0; }
+
+h3 {
+  color: #5d6981;
+  font-size: 3em;
+  font-weight: 700; }
+
+span {
+  color: #5d6981;
+  font-size: 3.6em;
+  font-weight: 300; }
+
+.section-top {
+  background: #f2f3f5 url("../img/bg-header.jpg") no-repeat;
+  background-size: cover; }
+
+.macbook {
+  background: url("../img/bg-macbook.png") center no-repeat; }
+
+.video {
+  background: url("../img/macbook.png") no-repeat;
+  background-size: cover;
+  padding: 3.5em 2.5em 20em;
+  height: auto;
+  width: auto; }
+
+.creativity {
+  background: url("../img/creativity.jpg") no-repeat;
+  background-size: cover; }
+
+.services {
+  padding-bottom: 10em; }
+  .services img {
+    position: inherit; }
+  .services h3 {
+    padding: 1em 0 0.5em; }
+  .services p {
+    font-weight: 300;
+    font-size: 1.8em; }
+
+span {
+  display: block; }
+
+.how-we-work {
+  background: #0149a1; }
+  .how-we-work h2 {
+    color: white; }
+  .how-we-work span {
+    color: #5483bb;
+    padding-bottom: 2em; }
+  .how-we-work p {
+    color: white;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin: 0;
+    text-align: left;
+    line-height: 1.5em;
+    padding-bottom: 1.5em; }
+
+.slides img {
+  max-width: 135px;
+  margin: 10em auto 3em;
+  text-align: center; }
+
+.flex-direction-nav a {
+  weight: 80px;
+  height: 60px;
+  border: 2px solid #e3e7eb;
+  border-radius: 40px; }
+
+blockquote {
+  padding: 0.5em 11em;
+  border: none;
+  font-size: 2.4em;
+  font-weight: 300;
+  font-style: italic; }
+
+cite {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal; }
+  cite a {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.team {
+  background: #edeff1; }
+  .team span {
+    margin: 0 auto 3em; }
+  .team h3 {
+    padding: 0.5em 0; }
+  .team p {
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.5em; }
+
+button {
+  display: block;
+  margin: 7em auto;
+  text-align: center;
+  background: #ff2d55;
+  padding: 20px 70px;
+  border: none;
+  border-radius: 3em;
+  font-weight: 700;
+  font-size: 1.8em;
+  transition: 0.2s; }
+  button a {
+    color: white; }
+
+button:hover {
+  background: #0149a1; }
+  button:hover a {
+    text-decoration: none;
+    color: #ff2d55; }
+
+.creativity button {
+  background: #0149a1;
+  margin: 16em auto 8em; }
+
+.creativity button:hover {
+  background: #ff2d55; }
+  .creativity button:hover a {
+    color: white; }
+
+.how-we-work button {
+  background: white;
+  padding: 8em auto;
+  margin: 3em auto 7em; }
+  .how-we-work button a {
+    color: #0149a1; }
+
+.how-we-work button:hover {
+  background: #ff2d55; }
+  .how-we-work button:hover a {
+    color: white; }
+
+.team button {
+  margin: 3em auto 8em; }
